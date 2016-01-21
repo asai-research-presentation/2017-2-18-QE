@@ -1,6 +1,6 @@
 
 all:
-	../makebb.sh
+	ebb *.jpg *.png
 
 clean:
 	-rm *bb
