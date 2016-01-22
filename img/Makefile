@@ -1,18 +1,20 @@
 
-PNG=find ./ -regex ".*\.svg" | sed -e "s/svg/png/g"
+convert=$(shell find ./ -name "*.$(1)" | sed -e s/$(1)/$(2)/g)
 
-.SUFFIXES: .svg .png
 .PHONY:	clean all
 
-all: $(shell $(PNG))
-	$(MAKE) -C static
+all: $(call convert,svg,png) $(call convert,svg,xbb) $(call convert,png,xbb) .jpgxbb
 
-%.png : %.svg
+.jpgxbb: $(call convert,jpg,jpg)
+	ebb -x $(call convert,jpg,jpg)
+
+%.xbb: %.png
+	ebb -x $<
+
+%.png: %.svg
 	inkscape -f $< -e $*.png -d 150
-	ebb $<
 #	convert $< $*.png
 #	if you want to use imagemagick, comment out 'inkscape...' and use 'convert...'
 
 clean:
-	-rm *bb *.png
-	$(MAKE) -C static clean
+	-rm -f $(call convert,svg,png) $(call convert,svg,xbb) $(call convert,png,xbb) $(call convert,jpg,xbb)
