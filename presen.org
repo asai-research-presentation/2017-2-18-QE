@@ -325,6 +325,7 @@ A. Possible, but *different layer*
 
 [[png:planning-deeplearning]]
 
+AI's Ethics? --- subject to the "users"
 
 * ICAPS14 paper
 
@@ -367,6 +368,10 @@ some actions are zero-cost, like, the amount of labor on each driver is ignored.
 
 APPLY TO THE INTERNSHIP PROGRAMS: Google, Amazon, IBM, ...
 
+Good opportunity follow *good papers*
+
+Submission Deadline for IJCAI-2016: *1/27*
+
 * 付録 古典プランニング問題とは (定義)
 
 アクション集合 A, オブジェクト集合 O, 初期状態 I, ゴールG
@@ -389,54 +394,7 @@ APPLY TO THE INTERNSHIP PROGRAMS: Google, Amazon, IBM, ...
 
 * 付録 古典プランニングを研究する意義は?
 
-[[png:classical-meaning]]
-
-* 付録 AIの倫理について
-  
-+ 研究内容は 漠然とした「AI」のうち *グラフ探索* の研究
-+ 善悪の判断はそれ自体は行わない
-+ 価値判断は与えられる入力の中にある = 使用者の価値観を反映する
-+ 悪用の問題はある。しかし、自分としては、災害救助ロボットなど、人道的な応用を目指している
-
-* 付録 ディープラーニングとどう違うのか
-
-+ 機械学習を埋め込むことは可能だ
-+ が、求められる推論の複雑さが根本的に違う → 独立した分野
-
-#+BEGIN_CONTAINER-FLUID
-#+BEGIN_ROW-FLUID
-#+BEGIN_SPAN7
-*ニューラルネット*, *DL*, *強化学習*
-+ 入力: 現在のデータ、過去の履歴、報酬 etc..
-+ 出力:
-  + *次の1ステップ* のアクション選択ポリシー (強化学習)
-  + *固定長の分類結果* (画像認識)
-  + ある意味 状況に応じて脊髄反射 なエージェント
-#+END_SPAN7
-#+BEGIN_SPAN5
-*プランニング*
-出力:
-+ *10ステップ, 100ステップ先* の未来を *先読み* した行動計画
-+ ICAPS14,15の手法を使えば *数千ステップ* 先の未来まで先読みすることが出来る
-#+END_SPAN5
-#+END_ROW-FLUID
-#+END_CONTAINER-FLUID
-
-ただしプランニングに学習機を埋め込むことは *可能* (実例複数あり)
-
-DLから見て、プランニングは *アプリケーション*
-
-プランニングから見て、DLは *ツール*
-
-両者の組み合わせは機会があればやってみたい
-
-** 付録 ディープラーニング関連
-
-趣味の一環で、Common Lisp から直接使えるGPGPUのライブラリを作成中 (DLを作ってみるため)
-
-+ OpenCLベース
-+ Lisp の文法を直接 OpenCL C に変換し実行するトランスレータ
-+ OpenCLのメモリ管理を Lisp GC に埋め込み
+[[png:old/classical-meaning]]
 
 * 付録 第五世代コンピュータとの違いは?
 
