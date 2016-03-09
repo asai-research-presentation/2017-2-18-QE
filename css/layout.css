@@ -155,6 +155,10 @@ li {
 dd {
   visibility: hidden; }
 
+dt {
+  margin-bottom: 0.5em;
+  margin-top: 0.5em; }
+
 dd dd:before, dd li:before, li dd:before, li li:before {
   content: ''; }
 
@@ -206,7 +210,7 @@ dd.expanded, li.expanded {
 
 /* ***************** Markup ****************** */
 p {
-  margin: 0.5em 0 0 0; }
+  margin: 0.2em 0 0 0; }
 
 pre, code {
   font-size: 22px;

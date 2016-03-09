@@ -1,4 +1,4 @@
-#+title: Next Step in AI technology
+#+title: QE プレゼンテーション
 #+author: 
 #+include: "head.org"
 #+LINK: img file:img/%s
@@ -7,14 +7,9 @@
 
 # #+HTML: <script type="text/javascript" src="js/mathjaxconf.js"></script>
 
-# ターゲット: 計算機科学の知識はない理系の人
-
-
-
 #+BEGIN_outline-text-1
 #+BEGIN_CENTER
-Masataro Asai (Doctoral Student)
-
+Masataro Asai (1st yr Doctoral Student)
 
 #+BEGIN_CONTAINER-FLUID
 #+BEGIN_ROW-FLUID
@@ -143,8 +138,7 @@ driver who gets in or by a remote control. It is more like a
 super-sophisticated shovel car.
 #+END_RESUME
 
-* Impractical
-
+* 非実用的 --- 操縦士が足りない!
 
 #+BEGIN_CONTAINER-FLUID
 #+BEGIN_ROW-FLUID
@@ -160,6 +154,11 @@ super-sophisticated shovel car.
 #+END_ROW-FLUID
 #+END_CONTAINER-FLUID
 
+#+BEGIN_LARGER
+#+BEGIN_ALIGNRIGHT
++ そのままでは役に立たない!
+#+END_ALIGNRIGHT
+#+END_LARGER
 
 #+BEGIN_RESUME
 Now the problem is : It's ok in small accidents but is impractical in the real, massive 
@@ -169,8 +168,7 @@ These special purpose vehicles require human intervention,
 thus they are useless without trained operators.
 #+END_RESUME
 
-** Human Resource and Training
-
+** 操縦士は増やせない -- Human Resource and Training
 
 #+BEGIN_CONTAINER-FLUID
 #+BEGIN_ROW-FLUID
@@ -180,11 +178,10 @@ thus they are useless without trained operators.
 #+BEGIN_SPAN8
 More operators -- Impossible due to 4 reasons
 
-  + ✘ /Time/ matters :: Training requires ＞100hrs?
-    + ✘ quickly increase the operators
+  + ✘ /Time/ matters :: Training requires ＞100hrs, impossible to match the demands quickly
   + ✘ /＄＄＄＄/ matters :: Cost of trainers, places, equipments
-  + ✘ Skills need /Maintainance/ :: periodical training
-  + ✘ Skills are /Useless/ in normal situation :: Society cannot torelate the extra cost!
+  + ✘ Skills need /Maintainance/ :: Periodical training, long term cost
+  + ✘ Skills are /Useless/ in normal situation :: Net loss in the society is large!
 #+END_SPAN8
 #+END_ROW-FLUID
 #+END_CONTAINER-FLUID
@@ -295,7 +292,7 @@ pure applications.
 
 [[png:planning2]]
 
-* Q. Whats the difference between Deep Learning?
+* Q. Whats the difference between Deep Learning? :noexport:
 
 A. Possible, but *different layer*
 
@@ -321,7 +318,7 @@ A. Possible, but *different layer*
 #+END_ROW-FLUID
 #+END_CONTAINER-FLUID
 
-* Reflex Agent vs Goal-based Agents
+* Reflex Agent vs Goal-based Agents :noexport:
 
 [[png:planning-deeplearning]]
 
@@ -364,330 +361,196 @@ some actions are zero-cost, like, the amount of labor on each driver is ignored.
 
 [[png:aaai16]]
 
-* Future career plan?
+* *IHS* に参加した動機と達成度は?
 
-APPLY TO THE INTERNSHIP PROGRAMS: Google, Amazon, IBM, ...
++ *達成* 国際的活動についての知識と感覚を身につける
+  + 将来のキャリアパスのため。
+  + 自国を見つめなおすことで得られる国際感覚があった
++ *達成* 将来の研究、製品、起業に関するアイディアを得る
+  + IHS参加によって得たアイディアから1st-tier 査読付き国際学会論文が採択
 
-Good opportunity follow *good papers*
+** 国際的活動についての知識と感覚を身につける
 
-Submission Deadline for IJCAI-2016: *1/27*
++ 将来の仕事のため。
++ 仕事の大一番や日常のコミュニケーションなどで日本人特有の間違いをしないために、訓練をしておく必要があった。
++ 自国の政治に対する意見を求められた時に、すぐさま答えられるようにしておくことを学んだ。
 
-* 付録 古典プランニング問題とは (定義)
+*該当する授業*
 
-アクション集合 A, オブジェクト集合 O, 初期状態 I, ゴールG
+| タイトル             | 内容                             |
+|----------------------+----------------------------------|
+| プロジェクト5        | 新華大・プリンストン大生セミナー |
+| 統合人間学実験実習Ⅴ | 靖国問題講義、遊就館訪問         |
+|                      | 討論会                           |
+|----------------------+----------------------------------|
+| EMP講義              | 国際ビジネスで活躍している人間の |
+|                      | 考え方、普段からの心がけ、       |
+|                      | 処世術、常識を観察し学び取る。   |
 
-*状態* := 真である命題の集合
+# (最終レポート以外は 
+# 全て出席・提出した) 
 
-*アクションa∈A* : < pre(a), add(a), del(a), cost(a) >
+** 将来の研究、製品、起業に関するアイディアを得る
 
-ただし、 pre(a): 前提条件, add(a): 追加効果, del(a): 削除効果, cost(a): アクションの適用コスト
+#+BEGIN_CENTER
+State-of-the-Art 探索アルゴリズム A* (Hart, Nilsson, Raphael *1968*) に
 
-*状態sに対するアクションaの適用:* pre(a) ⊆ s の時に適用可能で、
+/Diversity/ の概念を導入し、 大幅な高速化を達成した。 (Asai and Fukunaga, 2016)
+#+END_CENTER
 
-　a(s) = ( s ∪ add(a) ) / del(a)
++ A^＊ の動作(概略) :: プランニング問題の解 (課題解決) を探すために様々な「選択肢」をランク付けする。
+     
+     ランクの小さい順に選択肢の正しさを検討する。
++ ランク付 :: 選択肢ごとに 「評価値」と呼ばれる数値を計算し、その値が小さい順に並べること。
 
-*終了判定*: s ⊇ G ならば ゴール達成
+/研究背景と結論:/
 
-# どう面倒な質問が来るかを想定して予備スライド
-# プランニングについて突っ込まれる
-# こてん的プランニングであることが判明する
++ 1970年に提唱されて以来、
+  ２つ以上の選択肢が「同じ評価値」になった時にどうするかは
+  *「さして重要ではない」* と考えられてきた。
+  
+  #+BEGIN_ALIGNRIGHT
+  →だれも注意を払わず、不適切な並べ方をしていた。
+  #+END_ALIGNRIGHT
 
-* 付録 古典プランニングを研究する意義は?
++ *同じ評価値を持つ選択肢について、毎回なるべく「似ていない」選択肢を選ぶ* 
+  (探索アルゴリズムへのDiversityの導入) ことで、 大幅に探索が高速化されることを示した。
 
-[[png:old/classical-meaning]]
-
-* 付録 第五世代コンピュータとの違いは?
-
-第五世代コンピュータ : 並列推論機械(Prologベース,ハードウェア,OS)
-
-根本的なソフトウェア技術、 *探索技術* が未発達だった
-
-| 第五世代                  | 現在                                |
-|---------------------------+-------------------------------------|
-| 後方全探索+バックトラック | *前方ヒューリスティック探索*        |
-| Prologベース              | C/C++で高度に最適化されたプログラム |
-|                           | State packing, 決定木, mutex...     |
-
-今はベンチマーク問題 *1104問* のうち 5分で *800問* 前後解ける
-
-仮に *当時のソフトウェア* を *現在のハードウェア* で動かしたとしても、 *100問も解けないだろう*
-
-* 付録 Explicit Graph と Implicit Graph との違い
-
-
-#+BEGIN_CONTAINER-FLUID
-#+BEGIN_ROW-FLUID
-#+BEGIN_SPAN4
-*カーナビ、ソーシャルグラフなど* : Explicit Graph Search
-
-グラフ全体がメモリ(〜数ペタバイト)または二次記憶(〜数ゼタバイト)に収まる
-
-参考: 2012年の全世界のデジタルデータ: 数ゼタバイト (1ZB = 10^21 バイト)
-
-AI and Web の分野など
-#+END_SPAN4
-#+BEGIN_SPAN8
-*プランニングにおける探索グラフ* : Implicit Graph Search
-
-地球に存在する全計算資源を集めても二次記憶に入らない
-
-グラフのノード数は状態変数に対して *指数的に増加*
-
-動的に必要な量のみメモリ確保をしないと問題が解けない
-
-探索空間サイズの例:
-
-3x3x3のルービックキューブ: 4.32 x 10^19 = 4 エクサバイト
-
-4x4x4のルービックキューブ: 7.40 x 10^45 > 10^24 ゼタバイト
-
-5x5x5のルービックキューブ: 2.83 x 10^74
-#+END_SPAN8
-#+END_ROW-FLUID
-#+END_CONTAINER-FLUID
-
-# 秋葉さんのボスがいるかもしれない
+#+BEGIN_LARGER
+#+BEGIN_ALIGNRIGHT
+Diversity の発想は IHS での体験から着想を得たもの。
+#+END_ALIGNRIGHT
+#+END_LARGER
 
 #+BEGIN_NOTE
-Gantz et al. "The digital universe in 2020: Big data, bigger digital shadows, and biggest growth in the far east." IDC iView: IDC Analyze the Future 2007 (2012): 1-16.
+Asai, M.; Fukunaga, A: 2016. Tiebreaking Strategies for A* Search: How to Explore the Final Frontier. In Proceedings of the 30th AAAI conference on Artificial Intelligence. Phoenix, Arizona USA.
 #+END_NOTE
 
+* 外国語習熟度
+
++ フランス語 --- 5月の試験の申し込みが始まっているので今度申し込む
++ アジアの外国語 --- もっと後で
+
+* この一年間の活動のまとめ (5-7月)
+
+|---------+------------------------------------------------------------------|
+| 時期    | 活動                                                             |
+|---------+------------------------------------------------------------------|
+| 夏学期  | IHSの授業 (-7月後半)                                             |
+| 6/7-11  | ICAPS15 査読付き国際学会論文発表 @ エルサレム, イスラエル (自費) |
+|---------+------------------------------------------------------------------|
+
+
+
++ 計算機科学は、 /査読付き/ 国際学会論文が需要な研究業績 ::
+
+     旅客機の一般化した1950年代以降に発展した分野だから。
+
+     ぶっちゃけると、進歩が速いので論文誌でチンタラやってられない! (でも論文誌も重要)
+
++ Publish or Perish. :: 
+     研究業績がないと一般企業への就職も出来ない
+
+     一流査読付き国際会議にコンスタントに論文を出し続けないと人生が終わる。
+
+     査読の厳しさによって国際学会には「格」がある
+     
+     1st-tier (最も厳しい), 2nd-tier... と続き、その果てに junk conference(査読なし) がある
+     
+     日本はjunkを業績リストに出して平気なAI研究者がけっこういるうえに
+     
+     「ドワンゴ人工知能研究所所長」みたいなポストに付けたりするので正直終わってる
+
+* この一年間の活動のまとめ (8-9月)
+
+|---------+------------------------------------------------------------------|
+| 時期    | 活動                                                             |
+|---------+------------------------------------------------------------------|
+| 冬学期  | 研究室内ゼミ以外の授業は履修せず (M1,M2の時も同様)               |
+| 8月-9月 | AAAI16のプログラム開発・試行錯誤・実験・執筆                     |
+|         | (自宅リモート勤務24時間、指導教授とはskypeチャット)              |
+| 9/15    | AAAI16 *Paper Submission Deadline*                               |
+|---------+------------------------------------------------------------------|
+
+　
+
+*研究のスケジュール*
+
++ アイディアの着想、検討、実装には最短でも一ヶ月かかる
+  
+  #+BEGIN_ALIGNRIGHT
+  (自分はプログラマとして実力があるので上記スケジュールでギリギリ間に合う)
+  #+END_ALIGNRIGHT
++ 論文の執筆にはまるまる1ヶ月かかる。 Top-Tier に通すには
+  #+BEGIN_ALIGNRIGHT
+  *わかりやすさ* 、 *正しさ* 、 *発見の重要性* の全てが揃わなくてはならない。
+  #+END_ALIGNRIGHT
++ ストーリーを練るにつれ、 必要な実験と必要でない実験が炙りだされていく
+  
+  #+BEGIN_ALIGNRIGHT
+  (同時並行で追加実験・追加実装を行う。)
+  #+END_ALIGNRIGHT
++ 二ヶ月毎に新たなウェブサービスを立ち上げるのと同じようなもの!
+  
+  #+BEGIN_ALIGNRIGHT
+  機械の力を駆使して同時並行に多数のことを実行、他のことを考える余裕はない
+  #+END_ALIGNRIGHT
+
+* この一年間の活動のまとめ (9月-)
+
+
+|------------+------------------------------------------------------|
+| 9/15       | AAAI16 Paper Submission Deadline                     |
+|            | AAAI16 Rebuttal にむけ予備実験                       |
+|            | _ICAPS16 にむけプログラム開発・試行錯誤・実験・執筆_ |
+| *10/21-24* | AAAI16 *Rebuttal Period (査読者への反論)*            |
+| 10月-11月  | _ICAPS16 にむけプログラム開発・試行錯誤・実験・執筆_ |
+| *11/13*    | AAAI16 *Notification* (+ 査読者から追加コメント)     |
+| *11/22*    | ICAPS16 *Paper Submission Deadline*                  |
+|------------+------------------------------------------------------|
+
+
++ 反論 :: 500語制限に3ページ以上ある査読に対する適切な対応を詰め込む「箱詰めパズル」
++ 採択通知と「次の学会」の締め切り :: 通知(Notification) と「次の」学会のDeadlineが時期的に繋がるようになっている
+     
+     落ちたら次のに出せる → 実質 4-5回査読のある論文誌と査読の質は変わらない
+     
+     #+BEGIN_ALIGNRIGHT
+     今回はAAAI16 が通った→ICAPS16 には、 _準備していた全く別の内容_ を出した
+     #+END_ALIGNRIGHT
+
+* この一年間の活動のまとめ (11月-)
+
+|-----------+-------------------------------------------------------|
+| *11/13*   | AAAI16 *Notification* (+ 査読者から追加コメント)      |
+| *11/22*   | ICAPS16 *Paper Submission Deadline*                   |
+|           | AAAI16 追加コメントに対応すべく追加実験               |
+|           | DC2 口頭面接に備えて準備                              |
+| 12/1      | AAAI16 Camera-ready Deadline (最終版投稿)             |
+|           | ICAPS16 Rebuttal にむけ追加実験                       |
+| 12/2      | DC2 口頭面接                                          |
+| 12月-1月  | IJCAI16 にむけプログラム開発・試行錯誤・実験・執筆    |
+| 12/25     | DC2 採用通知                                          |
+| 1/8-11    | ICAPS16 Rebuttal Period                               |
+| *1/26*    | ICAPS16 *Notification*                                |
+| *2/2*     | IJCAI16 *Paper Submission Deadline*                   |
+|-----------+-------------------------------------------------------|
+
+* この一年間の活動のまとめ (2月-)
+
+|---------+-------------------------------------------------------|
+| *2/2*   | IJCAI16 *Paper Submission Deadline*                   |
+| 2/10    | 科研費応募締め切り                                    |
+| 2/11-20 | AAAI16 査読付き国際学会論文発表 @ Phoenix Arizona USA |
+| 2/19    | ICAPS16 Doctorial Consortium Submission Deadline      |
+| 3/4     | HSDIP16 Workshop Paper Submission Deadline            |
+| 3/11-14 | IJCAI16 Rebuttal Period                               |
+| *4/4*   | IJCAI16 *Notification*                                |
+| *4/7*   | SoCS16 *Paper Submission Deadline*                    |
+| *4/15*  | ECAI16 *Paper Submission Deadline*                    |
+| ...     | ...                                                   |
+|---------+-------------------------------------------------------|
+
+結論: 計算機科学でまともに研究をしようと思ったら、冬学期に授業を取ることは不可能です。
 
-* 付録 似たような研究は誰がやっていますか どこでやられていますか
 
-# いろんなバリエーションがある
-# 自分の研究分野のことをどれぐらいわかっているのか
-
-#+BEGIN_XLARGE
-国内ですか、国外ですか？
-#+BEGIN_CENTER
-YES NO
-#+END_CENTER
-#+END_XLARGE
-
-# ** 国内
-# 
-# 過去の業績のことですか、研究計画のことですか? 過去、未来
-# 
-# (研究計画で) あなたの研究と似ている研究は誰がやっているか?
-# symmetry
-
-# Nir Potcher,
-# Carmel Domshrak,
-# Erez Karpas,
-# Maria Fox
-# Malte Helmert
-
-# (過去の業績で) あなたの研究と似ている研究は誰がやっているか?
-# 
-# Eyal Amir,
-# Raz Nissim,
-# Ronen Brafman,
-# Anders Jonsson,
-# Lukas Chrpa
-
-# 今後のインパクトを聞かれているのか、
-# 今までのインパクトを聞かれているのか
-# 確認すること
-
-* 付録 プランニングはマイナーで大したことのない分野?
-
-日本にプランニングの研究室がない ≠ 世界で研究室がない
-
-*ICAPS*, *SoCS* : 例年150人-200人の参加者を集めており大変盛況, 
-
-*AAAI*, *IJCAI* : プランニングに関する論文は例年数十本採択 Proceedingsの一つの章をなす
-
-*JAIR*, *AIJ* : 論文誌でもプランニングの論文は多い (JAIR Volume 54: 12本中 2本 がプランニング論文)
-
-*主な研究室*:
-
-MIT CSAIL (Brian Williams), Carnegie-Mellon, 
-
-NASA (NASA Ames および NASA/Caltech JPL のそれぞれに20名以上の研究者), 欧州宇宙機関(ESA)
-
-指導教員は NASA JPL AI Lab の元メンバー
-
-* 付録 汎用性を失わずに解く?
-
-*No Free Lunch 定理*: 最適化アルゴリズムの性能は *全問題の平均を取れば* 全て同じ
-
-Q. NFL定理のもとで「汎用性を失わずに高速に解く」というのは不可能?
-
-A. NFL定理は確かにそのように主張するが、プランニング分野の意味する「汎用性」は
-
-*人間にとって有意義な問題の集合* における汎用性である。
-
-#+BEGIN_CENTER
-全プランニング問題の集合 ⊇ 人間にとって有意義な問題の集合
-#+END_CENTER
-
-従って、 *全問題の平均を取れば* という前提が成り立たない。
-
-* TODO 付録 その研究は...
-
-# + オリジナリティは idea について。 だからテクニカル
-# ループの概念を検出する
-# 
-# + インパクトは user の話について。 だからapplication
-# ループをけんすつしようという考え自体がプランニング業界で新た
-#   + 過去ー現在のインパクト
-#   + 未来のインパクト
-
-
-|          | 重要度 | 評価                     | オリジナリティ         | 過去のインパクト              | 未来のインパクト     | 動機                             |
-|----------+--------+--------------------------+------------------------+-------------------------------+----------------------+----------------------------------|
-| ACP      |        | 発表した                 | ループの概念を検出     | はるかに巨大な問題            | 産業応用             | 人間プログラマでは追いつかない   |
-|          |        | 難関学会                 |                        |                               | 大規模問題           |                                  |
-|          |        |                          |                        |                               |                      |                                  |
-|          |        |                          |                        |                               |                      |                                  |
-| CAP      |        | 難関学会                 | 問題分割手法           | 大規模な問題                  | 産業応用             |                                  |
-|          |        | 発表した                 | 柔軟な統合手法         | それまでの分割系の手法より    | 混ざった問題         |                                  |
-|          |        | いくつか質問された       |                        | 広範囲に分割                  |                      |                                  |
-|          |        | メールやり取り           |                        |                               |                      |                                  |
-|          |        |                          |                        |                               |                      |                                  |
-|----------+--------+--------------------------+------------------------+-------------------------------+----------------------+----------------------------------|
-| AAAI16   |        | 三人中                   | 同コストのノードの分類 | 70年代からの定説を覆す        | 広範なグラフ探索問題 | 下界以外で改善したかった         |
-|          |        | 二人の査読者に絶賛された |                        | 通常と異なる方法で性能改善    | 基礎技術             |                                  |
-|          |        |                          |                        | コスト0は実応用によく使われる |                      |                                  |
-|          |        |                          |                        |                               |                      |                                  |
-|          |        |                          |                        |                               |                      |                                  |
-|          |        |                          |                        |                               |                      |                                  |
-|----------+--------+--------------------------+------------------------+-------------------------------+----------------------+----------------------------------|
-| 過去全体 |        |                          |                        |                               |                      |                                  |
-|          |        |                          |                        |                               |                      |                                  |
-| 未来全体 |        |                          |                        |                               |                      |                                  |
-|          |        |                          |                        |                               |                      |                                  |
-| 過去未来 |        |                          |                        |                               |                      |                                  |
-|          |        |                          |                        |                               |                      |                                  |
-|          |        |                          |                        |                               |                      | グラフ探索の下界関数             |
-|          |        | どちらも                 |                        |                               |                      |                                  |
-| 対称性   |        | underinvestigated,       |                        |                               | 産業応用             | これの改善では改善に限界がある   |
-|          |        | もっとしらべるべき       |                        |                               |                      | ことがわかっている               |
-| 問題分割 |        | とされている             |                        |                               |                      | どちらも綺麗なアイディアではない |
-|          |        |                          |                        |                               |                      | 産業応用                         |
-| 融合     |        |                          |                        |                               |                      |                                  |
-|          |        |                          |                        |                               |                      |                                  |
-
-# 一二年の成果なのでまだ引用はありませんが
-# その分野の研究者が集まる採択率33の場で発表してきました 
-# 口頭での会話でも上場で、いまもメールで交流をしています etc.
-# 
-# 評価は? : この論文は、採択率の厳しい難関国際学会に採択されました。
-# このことだけでも、研究内容の正しさと重要さを認められたと考えています。
-
-# ** 未来全体
-# 
-# 未来の事ならば、業績に関連するスライドに戻る。
-# それのおかげで何ができるかを話す。
-
-# math
-# learning
-# robotics -- "general enough to be applicable/scalable in this area"
-
-# 対称性 --- 
-# 
-# プランニングの表現力の中で表現できるすべての問題の中で適用できる
-# 対称性検知手法を制作する。
-
-** 国内で誰が似たようなことをやっているか
-
-この専門分野をやっている人は少ないんですが、
-少し離れているが最も似ている研究というと
-
-SATソルバの研究の人はいる -- 田中先生
-
-推論系 -- logic and reasoning
-
-Lemma Reusing for SAT based Planning and Scheduling
-ICAPS 10年ぐらい前 NIIの井上勝海 CSP でプランニング
-
-神戸大学
-田沼先生 SAT
-
-九大 横尾誠先生
-AAMAS マルチエージェントCSP
-
-自分の指導教官がアメリカから飛んできた研究者なので、もともと日本にいなかった研究者だった
-
-スライド2を見せる
-
-ERATOの人は同じくグラフ探索をやっていますが、
-explicit/implicit の違いがあります。
-瓦林先生
-秋葉さん
-
-Katsutoshi Hirayama, Kobe university  (constraint optimization, CSP, distributed CSP)
-
-Toru Ishida (Kyoto U. stopped working in search a long time ago, but for a while, he was the leader in A*-related search methods in Japan; coauthored some papers with Korf).
-
-* 付録 学会論文の位置づけ
-
-# * 付録 AAAI, ICAPS とは?
-# 
-# *AAAI* : 人工知能(AI)系で最も権威のある国際学会
-# 
-# [[png:aaai-microsoft]]
-# 
-# # 組織の名前でもあり会議の名前でもある
-# 
-# * AAAI の下部学会
-# 
-# [[png:aaai-conferences]]
-# 
-# * ICAPS とは？
-# # 人数と論文数が少ないので知名度は高くないが...
-# 
-# [[png:icaps-msai-core]]
-# 
-# CORE(ERA) Conference Ranking: A* オーストラリア/ニュージーランドの機関によるランキング
-
-* HTN と ICAPS-15 の違い
-
-HTNは人間が問題分割を行う
-人件費を考えると非常にコストパフォーマンスが悪い
-→ 自動で問題分割
-
-* 付録 Q&A
-
-+ Q. 探索空間の比較について、なぜ「以前」の数字がスライドによって変わるの?
-+ A. 論文の中で使った実験設定が異なるからです。
-
-* 付録 今後のキャリアパスは？
-
-研究者押しで押しまくる
-大学あるいは企業の研究者
-迷うことなくパッと答える
-
-* 付録 今後の研究計画が、インパクトの少ない今までの延長のように見えるんだけど・・・
-
-
-* 付録 アドホックな解法に見えるんだけど・・・
-
-
-* 付録 失敗しそうなんだけど・・・
-
-
-* 付録?? とにかくまとはずれな質問
-
-引き出しを探るタイプの質問
-
-
-
-上席研究員
-主任研究員
-
-senior engineer
-
-4段階
-
-下
-associate
-XX
-senior
-principal
-上
-
-PI principal investigator
-
-time sink
