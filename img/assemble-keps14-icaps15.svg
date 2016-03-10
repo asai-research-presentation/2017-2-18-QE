@@ -600,8 +600,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="598.48725"
-     inkscape:cy="323.57603"
+     inkscape:cx="499.2387"
+     inkscape:cy="203.57603"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
      showgrid="false"
@@ -642,9 +642,27 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      transform="translate(382.5078,21.607717)">
+    <rect
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.25;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect6673-4"
+       width="489"
+       height="192.00003"
+       x="-377.50781"
+       y="338.4006"
+       rx="13.881012"
+       ry="13.881012" />
+    <rect
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.25;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect6673"
+       width="453"
+       height="110"
+       x="-319.50781"
+       y="220.40059"
+       rx="13.881012"
+       ry="13.881012" />
     <g
        id="g3758"
-       transform="matrix(1.1744133,0,0,1.1744133,479.81183,112.46915)">
+       transform="matrix(0.7308552,0,0,0.7308552,16.849663,65.190509)">
       <path
          inkscape:connector-curvature="0"
          id="path12196"
@@ -898,9 +916,68 @@
          d="m -163.80988,312.10503 34.8968,0"
          style="fill:none;stroke:#000000;stroke-width:1.37465131px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker4042)" />
     </g>
+    <text
+       xml:space="preserve"
+       style="font-size:16.73910332px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.60360307;marker:none;marker-end:url(#Arrow1Lend);visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold'"
+       x="237.77194"
+       y="-0.2402494"
+       id="text5564"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5566"
+         x="237.77194"
+         y="-0.2402494">探索空間のサイズは指数: 2<tspan
+   style="font-size:10.88057137px;baseline-shift:super"
+   id="tspan5570">(命題変数の数)</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:19.90991402px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.60360307;marker:none;marker-end:url(#Arrow1Lend);visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold'"
+       x="236.86053"
+       y="25.97628"
+       id="text5572"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5574"
+         x="236.86053"
+         y="25.97628">変数100個→ 2<tspan
+   style="font-size:12.9416256px;baseline-shift:super"
+   id="tspan4542">100</tspan></tspan></text>
+    <rect
+       style="color:#000000;fill:none;stroke:#000000;stroke-width:1.28762341;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3222-2-1"
+       width="307.60941"
+       height="80.80497"
+       x="231.1875"
+       y="-19.501907"
+       rx="8.1677914"
+       ry="10.564651" />
+    <text
+       xml:space="preserve"
+       style="font-size:14.16385746px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold'"
+       x="236.93802"
+       y="50.418945"
+       id="text3327"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3329"
+         x="236.93802"
+         y="50.418945">問題が少し大きくなるだけで百万倍難しくなる</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:19.90991402px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.60360307;marker:none;marker-end:url(#Arrow1Lend);visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold'"
+       x="413.19595"
+       y="25.852043"
+       id="text5572-8"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5574-3"
+         x="413.19595"
+         y="25.852043">120個→ 2<tspan
+   style="font-size:12.9416256px;baseline-shift:super"
+   id="tspan4542-4">120</tspan></tspan></text>
     <g
        id="g11592"
-       transform="matrix(2.5401529,0,0,2.5401529,-423.02736,-279.76471)">
+       transform="matrix(1.9856715,0,0,1.9856715,-246.33934,-173.38973)">
       <path
          inkscape:connector-curvature="0"
          d="m 292.07203,121.80234 c -0.14374,-0.16641 -0.30753,-0.30941 -0.60985,-0.29081 l -13.05787,0 -6.48971,5.15283 c -0.0716,0.15136 -0.10785,0.26734 -0.12601,0.36525 l -0.0247,4.56613 c 0.12063,0.26173 0.26254,0.48515 0.51563,0.50845 l 1.50625,0 c 0,-4.46425 6.59981,-4.47337 6.59981,0 l 16.95659,0 c 0,-4.44694 6.65004,-4.464 6.65004,0 l 1.83741,0 c 0.15667,-0.0733 0.29762,-0.005 0.50462,-0.5314 l 0.0201,-3.2836 c -0.10685,-0.29876 -0.24012,-0.4126 -0.37308,-0.52854 l -9.54468,-1.58559 -4.36458,-4.37272 z"
@@ -1278,29 +1355,29 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Ultra-Light'"
-       x="-362.4054"
-       y="69.79129"
+       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Ultra-Light'"
+       x="-371.4054"
+       y="99.79129"
        id="text5737"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="-362.4054"
-         y="69.79129"
-         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Ultra-Light'"
-         id="tspan3297">ICAPS14: Large-scale homogenious repetitive problems</tspan></text>
+         x="-371.4054"
+         y="99.79129"
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Ultra-Light'"
+         id="tspan3297">ICAPS14: 大規模な問題を同一種類の小問題に分割+処理+統合</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:23.21492767px;font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Ultra-Light'"
-       x="-284.67975"
-       y="147.633"
+       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Ultra-Light'"
+       x="-295.69336"
+       y="131.17566"
        id="text5743"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan5745"
-         x="-284.67975"
-         y="147.633"><tspan
+         x="-295.69336"
+         y="131.17566"><tspan
            style="font-weight:bold;-inkscape-font-specification:'M+ 2c Bold'"
-           id="tspan3463">　Large-scale heterogenious repetitive problems</tspan></tspan></text>
+           id="tspan3463">　大規模な問題を複数種類の小問題に分割+処理+統合</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -1313,83 +1390,85 @@
          x="124.93326"
          y="115.62816" /></text>
     <path
-       style="color:#000000;fill:none;stroke:#ff0000;stroke-width:3.1932528px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="m -120.22329,156.40571 157.978656,0"
+       style="color:#000000;fill:none;stroke:#ff0000;stroke-width:3.02613735px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m -120.84355,139.48927 91.71102,0"
        id="path5741-3"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
-       style="font-size:23.21492767px;font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Ultra-Light'"
-       x="-363.41495"
-       y="146.6396"
+       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Ultra-Light'"
+       x="-370.30804"
+       y="130.23425"
        id="text6258"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan6260"
-         x="-363.41495"
-         y="146.6396">Purpose:</tspan></text>
+         x="-370.30804"
+         y="130.23425">目的:</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Ultra-Light'"
-       x="-353.68863"
-       y="246.77719"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Ultra-Light'"
+       x="-52.006889"
+       y="164.77719"
        id="text11572"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="-353.68863"
-         y="246.77719"
-         id="tspan3728"
-         style="font-size:22px;text-align:start;text-anchor:start">What is a <tspan
-   style="font-size:22px;font-weight:bold;text-align:start;text-anchor:start;-inkscape-font-specification:'M+ 2c Bold'"
-   id="tspan3392">structure</tspan> which forms</tspan><tspan
+         x="-52.006889"
+         y="164.77719"
+         id="tspan11584">1つの小問題の構成要素が不明: 自動で発見する能力が必要</tspan><tspan
          sodipodi:role="line"
-         x="-353.68863"
-         y="274.27719"
-         style="font-size:22px;text-align:start;text-anchor:start"
-         id="tspan3421">　 various types of loops?</tspan></text>
+         x="-52.006889"
+         y="187.27719"
+         id="tspan3740"
+         style="font-size:18px;text-align:center;text-anchor:middle"><tspan
+           id="tspan3742"
+           style="font-size:18px;text-align:center;text-anchor:middle">分割/統合が本質的に不可能な問題でも動作する汎用性が必要</tspan></tspan><tspan
+         sodipodi:role="line"
+         x="-52.006889"
+         y="209.77719"
+         id="tspan3730" /><tspan
+         sodipodi:role="line"
+         x="-52.006889"
+         y="232.27719"
+         id="tspan3728" /></text>
     <text
        xml:space="preserve"
        style="font-size:22px;font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Ultra-Light'"
-       x="-353.5289"
-       y="214.13902"
+       x="-354.5289"
+       y="167.13902"
        id="text11576"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan11578"
-         x="-353.5289"
-         y="214.13902">Issues:</tspan></text>
+         x="-354.5289"
+         y="167.13902">課題:</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:22px;font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Ultra-Light'"
-       x="-260.91223"
-       y="366.49603"
+       x="-311.91223"
+       y="245.49603"
        id="text6250"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="-260.91223"
-         y="366.49603"
-         style="font-weight:500;-inkscape-font-specification:'M+ 2c Medium'"
-         id="tspan3415">Automated discovery of object structure</tspan><tspan
-         sodipodi:role="line"
-         x="-260.91223"
-         y="393.99603"
-         style="font-weight:500;-inkscape-font-specification:'M+ 2c Medium'"
-         id="tspan3419">from the logical connections</tspan></text>
+         x="-311.91223"
+         y="245.49603"
+         id="tspan11885"
+         style="font-weight:500;-inkscape-font-specification:'M+ 2c Medium'">問題の論理構造から小問題を発見する新手法</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:22px;font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Ultra-Light'"
-       x="-359.56323"
-       y="369.61676"
+       x="-375.56323"
+       y="245.61676"
        id="text6254"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan6256"
-         x="-359.56323"
-         y="369.61676">Method:</tspan></text>
+         x="-375.56323"
+         y="245.61676">手法:</tspan></text>
     <g
        id="g3467"
-       transform="matrix(0.97628516,0,0,0.97628516,-9.047022,12.742981)">
+       transform="matrix(0.86775173,0,0,0.86775173,75.233631,19.873123)">
       <path
          inkscape:connector-curvature="0"
          d="m 300.05829,216.38352 c 0,3.94334 3.19672,7.14005 7.14009,7.14005 3.94334,0 7.14007,-3.19671 7.14007,-7.14005 0,-3.94334 -3.19673,-7.14005 -7.14007,-7.14005 -3.94337,0 -7.14009,3.19671 -7.14009,7.14005 l 0,0 z"
@@ -1626,6 +1705,32 @@
            sodipodi:role="line">????</tspan></text>
     </g>
     <rect
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.25;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect6673-0"
+       width="445.99997"
+       height="181"
+       x="104.9922"
+       y="281.4006"
+       rx="13.881012"
+       ry="13.881012" />
+    <text
+       xml:space="preserve"
+       style="font-size:31.66889572px;font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Ultra-Light'"
+       x="114.92441"
+       y="317.23999"
+       id="text11895"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan11897"
+         x="114.92441"
+         y="317.23999">結果: <tspan
+   style="font-weight:bold;fill:#ff0000;-inkscape-font-specification:'M+ 2c Bold'"
+   id="tspan4307">広い問題種別で</tspan></tspan><tspan
+         sodipodi:role="line"
+         x="114.92441"
+         y="356.82611"
+         id="tspan12255">3-4倍変数の多い問題を解けた</tspan></text>
+    <rect
        style="color:#000000;fill:none;stroke:#000000;stroke-width:2.40054631;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect11899"
        width="931.81482"
@@ -1646,7 +1751,37 @@
            x="34.784142"
            y="233.51601"
            style="font-size:8.17329216px;text-align:start;text-anchor:start;font-family:Times New Roman;-inkscape-font-specification:Times New Roman" /></flowRegion><flowPara
-         id="flowPara9113">Asai, M. and Fukunaga, A. Applying Problem Decomposition to Extremely Large Planning Domains. In Proceedings of the 5th Workshop on Knowledge Engineering for Planning and Scheduling(KEPS), Portsmouth, NH, June 2014.</flowPara></flowRoot>    <flowRoot
+         id="flowPara9113">Asai, M. and Fukunaga, A. Applying Problem Decomposition to Extremely Large Planning Domains. In Proceedings of the 5th Workshop on Knowledge Engineering for Planning and Scheduling(KEPS), Portsmouth, NH, June 2014.</flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:31.66889572px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
+       x="119.15958"
+       y="397.74878"
+       id="text12204"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan12206"
+         x="119.15958"
+         y="397.74878">解ける探索空間のサイズ: </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:46.33433533px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c'"
+       x="123.30791"
+       y="448.19348"
+       id="text12208"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan12210"
+         x="123.30791"
+         y="448.19348"><tspan
+   style="font-size:24px;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c'"
+   id="tspan12226">以前</tspan>:~10<tspan
+   style="font-size:65.00091553%;baseline-shift:super;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c'"
+   id="tspan12216">7</tspan><tspan
+   style="font-size:24px;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c'"
+   id="tspan12220"> 提案手法</tspan>:~10<tspan
+   style="font-size:65.00091553%;baseline-shift:super;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c'"
+   id="tspan12218">28</tspan></tspan></text>
+    <flowRoot
        xml:space="preserve"
        id="flowRoot9105-2"
        style="font-size:10.8977232px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.99999994;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
@@ -1676,14 +1811,37 @@
          sodipodi:role="line"
          x="-379.50781"
          y="0.40058327"
-         id="tspan3461"
-         style="font-weight:bold;-inkscape-font-specification:'M+ 2c Bold'">More generality == More sophisticated AI</tspan></text>
+         id="tspan3406">プランニング分野一般の目標:</tspan><tspan
+         sodipodi:role="line"
+         x="-379.50781"
+         y="27.900583"
+         id="tspan3408"
+         style="font-weight:bold;-inkscape-font-specification:'M+ 2c Bold'">　汎用性を失わずに より複雑な問題を解く! → 高度なAI</tspan><tspan
+         sodipodi:role="line"
+         x="-379.50781"
+         y="55.400581"
+         id="tspan3461">　ICAPS14を一般化すればはるかに困難な問題が解けるハズ</tspan></text>
     <path
        style="fill:none;stroke:#ff0000;stroke-width:3.02613735px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -116.6562,78.63282 126.823715,0"
+       d="m -120.6562,108.63282 92.823715,0"
        id="path5741-3-8"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;text-indent:0;text-align:end;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:end;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Ultra-Light'"
+       x="544.75818"
+       y="503.78357"
+       id="text6261"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6263"
+         x="544.75818"
+         y="503.78357">新規性: 小問題の発見手法 / 柔軟な統合手法</tspan><tspan
+         sodipodi:role="line"
+         x="544.75818"
+         y="528.78357"
+         id="tspan6284">インパクト: 高速化, 小問題分割の汎用性を実証</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:22px;font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Ultra-Light'"
@@ -1706,6 +1864,29 @@
            x="583"
            y="161.0083" /></flowRegion><flowPara
          id="flowPara3750" /></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
+       x="-299.33472"
+       y="205.32953"
+       id="text3752"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3754"
+         x="-299.33472"
+         y="205.32953">(問題分割を行うその他の既存研究は、その場合動作しない/想定していない)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold'"
+       x="-167.24475"
+       y="371.26761"
+       id="text6250-3"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="-167.24475"
+         y="371.26761"
+         style="font-size:28px;font-weight:bold;-inkscape-font-specification:'M+ 2c Bold'"
+         id="tspan3832">より柔軟な統合手法</tspan></text>
+    <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
        x="-646.50781"
@@ -1739,6 +1920,359 @@
          x="-850.26324"
          y="282.98636"
          id="tspan3857">統合不可能→結果が単に無視される</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.12797666px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -343.86668,476.24782 53.3004,0"
+       id="path2985"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.12797666px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -285.75582,476.24782 50.93353,0"
+       id="path2989"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.12797666px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -225.9711,476.24782 44.65765,0"
+       id="path2991"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.12797666px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -343.86668,447.50055 53.3004,0"
+       id="path2985-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       id="path2991-8"
+       style="fill:none;stroke:#000000;stroke-width:1.12797666px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -285.75582,447.50055 73.49314,0 30.94923,0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.12797666px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -343.86668,425.81805 51.2743,0 80.3297,0 28.48572,0"
+       id="path2985-0-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:12.12979698px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.25;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold'"
+       x="-260.37433"
+       y="494.79224"
+       id="text3067-3"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3069-4"
+         x="-260.37433"
+         y="494.79224">分割結果のみからプラン生成</tspan><tspan
+         sodipodi:role="line"
+         x="-260.37433"
+         y="509.95447"
+         id="tspan6695">汎用性(低) 特定条件のみで動作</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.12797666px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m -319.93868,447.38965 9.45141,-17.4148"
+       id="path3174"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.12797666px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m -235.05126,447.38965 0,-18.03365"
+       id="path3176"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.12797666px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m -320.5084,474.84154 0,-19.27624"
+       id="path3180"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.12797666px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m -248.55402,475.98096 8.90964,-20.62346"
+       id="path3182"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.12797666px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m -220.04087,475.98096 -10.00205,-19.98764"
+       id="path3186"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       id="path2991-8-3"
+       style="fill:none;stroke:#000000;stroke-width:1.20198417px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -122.38288,463.35943 55.563214,0 13.01832,0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.20198417px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -26.48082,463.35943 63.13775,0 18.309577,0"
+       id="path2993-9-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.20198417px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -149.80664,428.13993 85.600196,0 30.354691,0 71.029974,0 44.924939,0"
+       id="path2985-0-8-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.20198417px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m -88.490179,462.9631 0,-24.79063"
+       id="path3176-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.20198417px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m -1.876223,462.356 -9.990201,-23.82764"
+       id="path3178-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:1.20198417px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -146.86681,463.35943 5.32471,0"
+       id="path4654-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:1.20198417px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -138.7055,463.35943 5.3247,0"
+       id="path4654-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:1.20198417px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -130.5442,463.35943 5.32471,0"
+       id="path4654-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:1.20198417px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -42.803434,463.35943 5.324711,0"
+       id="path4654-77"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:1.20198417px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -34.642125,463.35943 5.324712,0"
+       id="path4654-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:1.20198417px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -50.964744,463.35943 5.32471,0"
+       id="path4654-77-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:1.20198417px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 57.803085,463.35943 5.324719,0"
+       id="path4654-77-7-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:1.20198417px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 65.964392,463.35943 5.32471,0"
+       id="path4654-77-7-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:1.20198417px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 74.125702,463.35943 5.324708,0"
+       id="path4654-77-7-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:15.62579632px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.25;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold'"
+       x="-0.87735558"
+       y="481.0448"
+       id="text4756"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4758"
+         x="-0.87735462"
+         y="481.0448">分割前のモデルを併用</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:17.67887115px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.25;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold'"
+       x="-307.74969"
+       y="411.37207"
+       id="text4760"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4762"
+         x="-307.74969"
+         y="411.37207">既存手法</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.83879852px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.25;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold'"
+       x="-111.44302"
+       y="413.19263"
+       id="text4760-3"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4762-6"
+         x="-111.44302"
+         y="413.19263">提案手法</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.20198417px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 12.701468,504.41099 33.458581,0"
+       id="path2991-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.20198417px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 12.500001,512.10031 64.223619,0"
+       id="path2993-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.20198417px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 29.097763,519.7896 37.639815,0"
+       id="path2995-5"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:13.88119602px;font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.25;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Ultra-Light'"
+       x="-60.618862"
+       y="519.14325"
+       id="text4855"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="-60.618858"
+         y="519.14325"
+         id="tspan6610">使われなかった小問題</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:15.15331936px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
+       x="-242.78821"
+       y="420.7095"
+       id="text6488"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6490"
+         x="-242.78821"
+         y="420.7095">全プラン</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16.14754295px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
+       x="19.098793"
+       y="423.67767"
+       id="text6488-9"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6490-6"
+         x="19.098793"
+         y="423.67767">全プラン</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16.14754295px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Medium'"
+       x="-141.62604"
+       y="498.28775"
+       id="text6513"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6515"
+         x="-141.62604"
+         y="498.28775">統合が失敗するときも適用可能</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14.62394524px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.25;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold'"
+       x="-274.832"
+       y="362.23013"
+       id="text6517"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6519"
+         x="-274.832"
+         y="362.23013">分割なしでは解けない問題</tspan></text>
+    <path
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:0.93306124px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -332.9836,374.43986 4.1334,0"
+       id="path4654-0-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:0.93306124px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -326.47554,374.43986 4.13339,0"
+       id="path4654-7-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:0.93306124px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -319.96744,374.43986 4.1334,0"
+       id="path4654-2-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:0.93306124px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -313.45942,374.43986 4.1334,0"
+       id="path4654-0-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:0.93306124px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -306.95136,374.43986 4.13339,0"
+       id="path4654-7-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:0.93306124px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -300.44326,374.43986 4.1334,0"
+       id="path4654-2-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:0.93306124px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -293.93516,374.43986 4.13339,0"
+       id="path4654-0-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:0.93306124px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -287.42709,374.43986 4.1334,0"
+       id="path4654-7-21"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:0.93306124px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -280.91904,374.43986 4.1334,0"
+       id="path4654-2-78"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:0.93306124px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -274.41095,374.43986 4.13339,0"
+       id="path4654-0-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:0.93306124px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -267.90291,374.43986 4.13339,0"
+       id="path4654-7-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:0.93306124px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -261.39483,374.43986 4.1334,0"
+       id="path4654-2-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.44567585px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold'"
+       x="-252.81754"
+       y="376.79013"
+       id="text6596"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6600"
+         x="-252.81754"
+         y="376.79013">(探索失敗)</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10.44567585px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold'"
