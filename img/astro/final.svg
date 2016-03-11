@@ -38,7 +38,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
      inkscape:cx="240.81201"
-     inkscape:cy="8.9397529"
+     inkscape:cy="-1.1617726"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -59,7 +59,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -81,36 +81,36 @@
        xml:space="preserve"
        style="font-size:32px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.44520462;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold Italic'"
        x="321.7001"
-       y="84.973618"
+       y="90.973618"
        id="text5120"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan5122"
          x="321.7001"
-         y="84.973618">Astro Boy</tspan></text>
+         y="90.973618">鉄腕アトム</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.44520462;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold Italic'"
        x="321.41565"
-       y="263.95645"
+       y="285.95645"
        id="text4333-8-9"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="321.41565"
-         y="263.95645"
-         id="tspan4360-4-4">Self-Controlled</tspan></text>
+         y="285.95645"
+         id="tspan4360-4-4">自律行動 Autonomous</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.44520462;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Italic'"
-       x="321.97983"
-       y="289.25931"
+       x="323.97983"
+       y="259.25931"
        id="text5178"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan5180"
-         x="321.97983"
-         y="289.25931">Can <tspan
-   style="font-weight:bold;-inkscape-font-specification:'M+ 2c Bold Italic'"
-   id="tspan5182">Think, Hear, Speak, Act</tspan></tspan></text>
+         x="323.97983"
+         y="259.25931"><tspan
+           style="font-weight:bold;-inkscape-font-specification:'M+ 2c Bold Italic'"
+           id="tspan5182">見て,聞いて,喋って,行動する</tspan></tspan></text>
   </g>
 </svg>

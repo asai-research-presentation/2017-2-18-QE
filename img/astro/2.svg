@@ -15,7 +15,7 @@
    id="svg5204"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="1.svg">
+   sodipodi:docname="2.svg">
   <defs
      id="defs5206">
     <clipPath
@@ -38,7 +38,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
      inkscape:cx="240.81201"
-     inkscape:cy="8.9397529"
+     inkscape:cy="-1.1617726"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -81,12 +81,12 @@
        xml:space="preserve"
        style="font-size:32px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.44520462;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'M+ 2c';-inkscape-font-specification:'M+ 2c Bold Italic'"
        x="321.7001"
-       y="84.973618"
+       y="90.973618"
        id="text5120"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan5122"
          x="321.7001"
-         y="84.973618">Astro Boy</tspan></text>
+         y="90.973618">鉄腕アトム</tspan></text>
   </g>
 </svg>

@@ -143,7 +143,7 @@ driver who gets in or by a remote control. It is more like a
 super-sophisticated shovel car.
 #+END_RESUME
 
-* 非実用的 --- 操縦士が足りない!
+* 実際の大規模災害では非実用的 --- 操縦士が足りない!
 
 #+BEGIN_CONTAINER-FLUID
 #+BEGIN_ROW-FLUID
@@ -173,7 +173,7 @@ These special purpose vehicles require human intervention,
 thus they are useless without trained operators.
 #+END_RESUME
 
-** 操縦士は増やせない -- Human Resource and Training
+** 操縦士を増やせない -- Human Resource and Training
 
 #+BEGIN_CONTAINER-FLUID
 #+BEGIN_ROW-FLUID
@@ -184,8 +184,8 @@ thus they are useless without trained operators.
 
   + ✘ /時間/ がかかる :: 訓練に ＞100時間, *必要な時だけ増やす* のは不可能
   + ✘ /￥￥￥￥/ がかかる :: 訓練官、訓練場所、訓練用具
-  + ✘ 技術は /維持が重要/ :: 定期的な再訓練、長期的コスト
-  + ✘ 平時は /無駄/ な技術 :: 普段は意味がない -- 社会的コストが大きい!
+  + ✘ 技術は /維持が重要/ :: 定期的な再訓練、長期的コスト、さらなるマニー
+  + ✘ 平時は /無駄/ な技術 :: 普段は意味がない -- 無駄なマニー!
 #+END_SPAN8
 #+END_ROW-FLUID
 #+END_CONTAINER-FLUID
@@ -282,7 +282,7 @@ It forces the society to waste a great amount of extra money.
 # 被災者を発見した時に適切な行動を自ら選択できるようになるかもしれません。
 # #+END_RESUME
 
-* AIの使いドコロ
+* AIの使いドコロ :noexport:
 
 + 人では不可能な作業の代替 :: 危険な環境, 宇宙空間・深海, 24時間対応, マイクロ秒応答
 + コストのかかる専門技師の代替・自動化 :: 機械工作, 人工衛星運営(専門家会議の時給が高い!)
@@ -431,18 +431,18 @@ Asai, M.; Fukunaga, A: 2016. Tiebreaking Strategies for A* Search: How to Explor
   + AlphaGoが人類史上最強の棋士に連勝(今日は中休み) → 敵対ゲーム
     + 協調ゲームに対しても同様の進歩が見られるだろうという予測はたつ
 
-実世界への応用(=金儲け)のため、さらなる知見が必要だ!
+実世界への応用(=マニー)のため、さらなる知見が必要だ!
 
 ** 他分野との交流2 (小学生並みの感想)
 
 + 一部の人文系とはやはり相容れないことがわかった
   + 「読んで5分で理解できるようなものに何の価値があるの?」とある教授に言われた
-  + 論理の泥団子は、その特定の議論の対象に特殊化した多くの前提から成り立っている
+  + 論理の泥団子 = 特定の議論の対象に特殊化した多くの前提から成り立っている
   + → 一般化出来ない、応用の効かない *重要度の低い理論*
   + 人工知能分野では「Utility Problem」と呼ばれる
 + 人による
-  + 「文系」学部撤廃の危機を唱える先生が居た
-  + 人工知能は実際の性能を越えた過度な期待が集まって何度も *大絶滅*
+  + 「文系」学部撤廃の危機を唱える先生が居た ← 興味深い
+  + *人工知能* は実際の性能を越えた *過度な期待* が集まって何度も *大絶滅* (/AIの冬/)
   + ← 正しく実用性をアピールし続けることは重要。資金は降ってこない
 
 #+BEGIN_NOTE
