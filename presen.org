@@ -563,13 +563,17 @@ It forces the society to waste a great amount of extra money.
 
 ** MWRP ソルバの開発
 
-Multiple Worker Routing Problem としてフォーマルに定式化
+エージェント(ケアワーカー、医者) の移動に不確実性がある環境で
 
-MWRP問題がNP困難であることの証明
+エージェントにすべての目的地(患者)を効率よく訪問させる問題
 
-MWRPを解くソルバの開発
++ Multiple Worker Routing Problem としてフォーマルに定式化
 
-MWRPをより高速に解くために、A*アルゴリズムの改良版 Delayed Expansion A*を開発
++ MWRP問題がNP困難であることの証明
+
++ MWRPを解くソルバの開発
+
++ MWRPをより高速に解くために、A*アルゴリズムの改良版 Delayed Expansion A*を開発
 
 ** 仕事以外にも Airbnb で 様々な人と同居
 
